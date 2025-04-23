@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+#list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  width: 70%;
+}
+
+form {
+  width: 100%;
+}
+input {
+  width: 300px;
+  height: 30px;
+}
+button {
+  padding: 7px 20px;
+  font-size: 16px;
+}
+li {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
